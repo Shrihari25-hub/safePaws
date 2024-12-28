@@ -1,10 +1,14 @@
 import './App.css';
-
+import Auth from './authenticate/Auth';
 function App() {
   return (
-    <div className="App">
-      <h1>SafePaws</h1>
+    <>
+     <div className="App">
+      
     </div>
+    <Auth/>
+    </>
+   
   );
 }
 
